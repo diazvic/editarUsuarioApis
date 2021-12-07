@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>85</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form id="form-crear">
+			<label
+				>Nombre
+				<input type="text" id="nombre" />
+			</label>
+			<label
+				>Email
+				<input type="email" id="email" />
+			</label>
+			<label
+				>Telefono
+				<input type="number" id="telefono" />
+			</label>
+			<label
+				>Direccion
+				<input type="text" id="direccion" />
+			</label>
+
+			<input type="submit" value="Crear nuevo usuario" />
+		</form>
+		<form id="form-editar" class="ocultar">
+			<label
+				>Nombre
+				<input type="text" id="nombre-editado" />
+			</label>
+			<label
+				>Email
+				<input type="email" id="email-editado" />
+			</label>
+			<label
+				>Telefono
+				<input type="number" id="telefono-editado" />
+			</label>
+			<label
+				>Direccion
+				<input type="text" id="direccion-editado" />
+			</label>
+
+			<input type="submit" id="submit-editar" value="Editar nuevo usuario" />
+		</form>
+
+		<table class="tabla-usuarios" id="tabla"></table>
+
+		<table id="tabla-editar-usuarios"></table>
+
+		<script src="index.js"></script>
+	</body>
+</html>
